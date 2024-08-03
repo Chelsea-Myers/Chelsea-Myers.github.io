@@ -1,131 +1,249 @@
-Sure! Here is the updated HTML code with the Google Analytics and Twitter references removed:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Insert your name in the title -->
-  <title>Your Name</title>
-  <!-- Insert your description here -->
-  <meta name="description" content="Your description goes here.">
-
-  <!-- Insert the path to your CSS file -->
-  <link rel="stylesheet" href="/assets/main.css">
-  <!-- Insert the canonical URL of your website -->
-  <link rel="canonical" href="https://yourwebsite.com/">
-  <link rel="alternate" type="application/rss+xml" title="Your Name" href="/feed.xml">
-
-  <!-- SEO tags -->
-  <title>Your Name | Your tagline or description here</title>
-  <meta name="generator" content="Jekyll v3.9.5" />
-  <meta property="og:title" content="Your Name" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="description" content="Your description goes here." />
-  <meta property="og:description" content="Your description goes here." />
-  <link rel="canonical" href="https://yourwebsite.com/" />
-  <meta property="og:url" content="https://yourwebsite.com/" />
-  <meta property="og:site_name" content="Your Name" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary" />
-  <meta property="twitter:title" content="Your Name" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "description": "Your description goes here.",
-    "headline": "Your Name",
-    "name": "Your Name",
-    "url": "https://yourwebsite.com/"
-  }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelsea Myers</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            background-color: #f5f1e8;
+            color: #333;
+            line-height: 1.6;
+        }
+        .custom-header {
+            background: #e6dfd1;
+            padding: 20px 0;
+        }
+        h1, h2 {
+            color: #4a4a4a;
+        }
+        .nav-link {
+            color: #4a4a4a;
+        }
+        .nav-link:hover {
+            color: #000;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .split-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        img {
+          width: 100%;
+        }
+    </style>
 </head>
-
+    
 <body>
-
-  <header class="site-header" role="banner">
-    <div class="wrapper">
-      <!-- Insert your name here -->
-      <a class="site-title" href="/">Your Name</a>
-
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger">
-          <!-- Insert your own links here -->
-          <a class="page-link" href="/blog/">Blog</a>
-          <a class="page-link" href="/books/">Books</a>
-          <a class="page-link" href="/list-100/">List 100</a>
-          <a class="page-link" href="/llama-police">Llama Police</a>
-          <a class="page-link" href="/mlops/">MLOps Guide</a>
-          <a class="page-link" href="https://yourwebsite.com/vn/">Tiếng Việt</a>
+    <header class="custom-header">
+        <div class="container text-center">
+            <h1>Chelsea Myers</h1>
+            <nav class="mt-3">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#book">Data Structures Book</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ai">Teaching and Learning with AI</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#impact">Community Impact Lab</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#personal">Personal</a></li>-->
+                </ul>
+            </nav>
         </div>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <article class="post">
-        <header class="post-header">
-          <h1 class="post-title"></h1>
-        </header>
+    <div class="container">
 
-        <div class="post-content">
-          <!-- Insert your Instagram link and image path -->
-          <p><a href="https://www.instagram.com/yourinstagram/" target="_blank">
-            <img alt="Your Name" src="/assets/profile.jpeg" style="float: right; max-width: 33%; margin: 0 0 1em 2em; border-radius: 999px" />
-          </a></p>
+        <!-- About section -->
 
-          <!-- Insert your bio here -->
-          <p>I’m Your Name, a [profession]. I grew up [short background].</p>
-
-          <!-- Insert your current and past work details -->
-          <p>I’m currently at [Company], working on [projects or roles]. Previously, I worked at [previous companies and roles].</p>
-
-          <!-- Insert your education and notable achievements -->
-          <p>I graduated from [University], where I taught [courses]. The lectures became the foundation for the book [Your Book Title], which is an [achievement]!</p>
-
-          <!-- Insert information about your new book -->
-          <p>My new book [Book Title] will (hopefully) come out [release date].</p>
-
-          <!-- Insert other links and activities -->
-          <p>I’m active on <a href="https://github.com/yourgithub">GitHub</a> and aspire to become a <a href="https://www.goodreads.com/yourprofile">Goodreads</a> influencer. I occasionally host and speak at <a href="https://lu.ma/yourevents">events</a>.</p>
-
-          <!-- Insert your contact information -->
-          <p>I’m best reached via <a href="https://yourwebsite.com/communication">email</a>. I’m always open to interesting conversations and collaboration.</p>
+        <!-- 
+        <div class="row mt-4" id="about">
+            <h2>About</h2>
         </div>
-      </article>
-    </div>
-  </main>
+        
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <img src="Myers_Headshot_2023.png" alt="Headshot of Dan S. Myers">
+            </div>
+            
+            <div class="col-md-8">                
+                <p>I'm an associate professor of computer science at <a href="https://www.rollins.edu">Rollins College</a> in Winter Park, FL. I teach classes across
+                   the computer science curriculum, including introductory programming, simulation, and AI. My textbook, <i>Data Structures and Algorithms in Java: A Project-Based
+                       Approach</i> will be published by Cambridge University Press in October 2024.
+                </p>
 
-  <footer class="site-footer">
-    <div class="wrapper">
-      <div class="footer-col-wrapper">
-        <div class="footer-col footer-col-1">
-          <ul class="contact-list">
-            <!-- Insert your email -->
-            <li>
-              <a><span class="icon icon--email"><svg viewBox="0 4.801209 28.3499966 18.7475815" enable-background="new 0 4.801209 28.3499966 18.7475815">
-                <path fill="#828282" d="M15.699194,17.7568531c-0.4572582,0.3048401-0.9145174,0.6096783-1.5241938,0.6096783
-                c-0.6096773,0-1.0669355-0.15242-1.5241938-0.6096783L0,6.7826605v16.1564522C0,23.2439518,0.3048387,23.54879,0.6096774,23.54879
-                h27.1306419c0.3048401,0,0.6096764-0.3048382,0.6096764-0.6096764V6.7826605L15.699194,17.7568531z"/>
-                <path 
-              </a>
-            </li>
-            <!-- GitHub -->
-            <li>
-              <a href="https://github.com/yourgithub"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0
+                <p>My student research group, the Rollins Community Impact Lab, conducts impact assessment projects with
+                    Central Florida nonprofits. <a href="#impact">Learn more about our work.</a></p>
+
+                <p> Since the introduction of ChatGPT, I've been heavily involved in writing and speaking about new AI tools with faculty, community groups, and the 
+                    local media. I offer <a href="#ai">hands-on faculty development workshops</a> that provide concerete models for collaborative,
+                    reflective teaching and learning with AI.</p>
+
+                <p><a href="Dan_Myers_CV.pdf">CV in PDF format</a><br/>
+                   <a href="https://github.com/dansmyers">GitHub repositories with class materials</a><br/>
+                 </p>
+
+                <p>
+                    dmyers@rollins.edu
+                </p>
+            </div>
+
+        </div>
+        -->
+        <!-- End of About section -->
+
+
+        <!-- Book section 
+        <div class="row mt-4" id="book">
+            <h2>Data Structures Book</h2>
+        </div>
+        
+        <div class="row mt-4">   
+             <div class="col-md-4">
+                <img src="Myers_Data_Structures_Cover.png" alt="Cover of Data Structures and Algorithms: A Project-Based Approach">
+            </div>
+            
+            <div class="col-md-8">                
+                <p>Data structures and algorithms sit at the heart of the computer science curriculum, but even excellent students often finish their data structures course
+                with no idea how the material applies to real software development.</p>
+
+                <p>This book takes an active learning approach to the core undergraduate data structures course. Each theoretical topic is paired with at least one 
+                significant project that illustrates its application and builds students' programming skills. The projects are interdisciplinary, and include:
+                <ul>
+                    <li>Fractal art generators</li>
+                    <li>Artificial life simulations</li>
+                    <li>A tiny web browser</li>
+                    <li>A textual search engine for a Shakespeare play</li>
+                    <li>Password cracking</li>
+                    <li>Particle effects graphics</li>
+                </ul>
+                Some of the projects are proven classics, but most are new, having been developed for my own classes over the past decade. Students will build
+                key skills in object-oriented programming and gain familiarity with Java's graphics and user input frameworks.
+                </p>
+
+                <p>Instructors who adopt the text have access to lecture slides, exercise solutions, a test bank, and a chapter-by-chapter teaching guide to help
+                you use the book in your own course.</p>
+
+                <p>The book is available from <a href="https://www.cambridge.org/highereducation/books/data-structures-and-algorithms-in-java/CE4F67C1DAEF99C779E793C455DD8A24#overview">Cambridge University Press</a>
+                or wherever fine textbooks are sold.</p>
+            </div>
+
+        </div> -->
+        <!-- End Book section -->
+
+
+        <!-- AI section 
+        <div class="row mt-4" id="ai">
+            <h2>Teaching and Learning with AI</h2>
+        </div>
+        
+        <div class="row mt-4">    
+             <div class="col-md-4">
+                <img src="cute_yarn_robot.jpeg" alt="AI-generated image of a cute robot made of yarn and buttons">
+
+                 <p>
+                 <i>Cute yarn robot</i> made by my son using DALL-E 3
+                 </p>
+            </div>
+
+            <div class="col-md-8">
+              <p>New large-language AI models are challenging instructors, but can also open new opportunities for teaching and learning. 
+                  It's time to move beyond simply <i>policing</i> AI use and show our students how to use AI 
+                in a reflective, collaborative way.</p>
+
+                <p>I offer a one-day in-person workshop to help faculty develop AI-first assignments and courses, drawing upon my own
+                experience using AI in the classroom, resources I've developed for the Rollins faculty, and the best ideas from other
+                leading AI-engaged professors. Attendees will leave with:
+                <ul>
+                    <li>Concrete examples of successful assignments you can adapt to your own classes</li>
+                    <li>Practical tips for designing AI-first courses, including balancing AI and non-AI skills</li>
+                    <li>Interactive activities to help develop your own AI-supported assignments</li>
+                    <li>Strategies for teaching students to use AI <i>collaboratively</i> and with agency</li>
+                    <li>A guided group brainstorming and vision activity for the future of AI in your curriculum</li>
+                </ul></p>
+
+                <p><a href="ai.html">Click here</a> for more information, example materials, and an outline of topics.</p>
+            </div>
+
+        </div> -->
+        <!-- End AI section -->
+
+
+        <!-- Impact section 
+        <div class="row mt-4" id="impact">
+            <h2>Community Impact Lab</h2>
+        </div>
+        
+        <div class="row mt-4">  
+           <div class="col-md-4">
+               <img src="airship.jpeg" alt="AI-generated image of a steampunk airship">
+               <p>
+                   <i>Steampunk airship</i> by me using Playground
+               </p>
+           </div>
+            
+            <div class="col-md-8">                
+                <p>
+                The Rollins Community Impact Lab works with nonprofits and community organizations to assess the impact of their programs.
+                We use a focus group methodology called <a href="https://extension.umn.edu/community-development/ripple-effect-mapping">Ripple Effect Mapping</a> (REM) to capture the key outcomes of a
+                program in the words of its participants and stakeholders. Our projects are collaborative: partners are highly involved in defining the
+                    scope of the study, the important questions, and reviewing and validating the results.
+                </p>
+
+                <p>
+                    Each project leads to a whitepaper summarizing the important themes of the REM data and answering questions identified
+                    by the partner. <a href="Crave_White_Paper.pdf">Here's an example</a> that we developed in partnership with <a href="https://cravefla.org/">Crave of
+                        Central Florida</a>.
+                </p>
+
+                <p>
+                    If you'd like to talk about scheduling a Ripple Effect Mapping session with your group, please feel free to reach out to me.
+                </p>
+            </div>
+
+        </div> -->
+        <!-- End impact section -->
+
+
+
+        <!-- Personal section 
+        <div class="row mt-4" id="personal">
+            <h2>Personal</h2>
+        </div>
+        
+        <div class="row mt-4">  
+           <div class="col-md-4">
+               <img src="romantic_arctic_landscape.jpeg" alt="AI-generated image of a beautiful but imposing arctic landscape">
+               <p>
+                   <i>Arctic sublime landscape; beautiful and imposing</i> by me using Playground
+               </p>
+           </div>
+            
+            <div class="col-md-8">                
+                <p>Before joining the Rollins faculty, I received my Ph.D. in computer sciences from the University of Wisconsin-Madison in 2014, advised by Mary Vernon and Remzi Arpaci-Dusseau.
+                    My dissertation developed analytic performance models for storage systems and new approximations for queue length distributions.
+                    Prior to attending UW, I worked as a software engineer at Sandia National Laboratories in Albuquerque, NM, applying computer vision
+                    algorithms to national security problems. My bachelor's and master's degrees are from the University of Florida.
+                </p>
+
+                <p>
+                  <a href="https://www.youtube.com/watch?v=tb-pU09vAN8&list=PLdZehgbgYw-TChlzi78HAAT-4Islc5S6b&index=1">I like to play the guitar</a>    
+                </p>
+
+                <p>
+                  <br/>
+                </p>
+            </div>
+
+        </div> -->
+        <!-- End impact section -->
+
+    </div>  <!-- End container div -->
+
+    <!-- Bootstrap JS (optional, only needed if you're using Bootstrap's JavaScript components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
